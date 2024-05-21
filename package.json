@@ -3,8 +3,11 @@
   "version": "1.0.0",
   "description": "Receta de mi comida favorita",
   "main": "app.js",
+  "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "sass": "watch app/sass:public/stylesheets",
+    "sass-w" :"watch input.scss output.css"
   },
   "repository": {
     "type": "git",
@@ -15,5 +18,11 @@
   "bugs": {
     "url": "https://github.com/JuliaParra/My-Favorite-Food-Web/issues"
   },
-  "homepage": "https://github.com/JuliaParra/My-Favorite-Food-Web#readme"
+  "homepage": "https://github.com/JuliaParra/My-Favorite-Food-Web#readme",
+  "dependencies": {
+    "bootstrap": "^5.3.3"
+  },
+  "devDependencies": {
+    "sass": "^1.77.2"
+  }
 }
