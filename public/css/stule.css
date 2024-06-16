@@ -1,0 +1,112 @@
+header {
+  width: 100%;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  color: rgb(255, 255, 255);
+  margin: 0%;
+  padding: 0%;
+  text-align: left;
+}
+
+.food {
+  width: 100%;
+  height: 75px;
+  margin: 0%;
+  padding: 0%;
+}
+
+.banner {
+  width: 100%;
+  overflow: hidden;
+}
+
+.banner img {
+  width: 100%;
+  height: 300px;
+  display: block;
+}
+
+.img-fluid {
+  height: auto;
+  display: block;
+}
+
+.elab {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cont-elab {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.tarjeta {
+  width: 50%;
+  padding: 40px;
+  margin-top: 30px;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  border-radius: 30px;
+}
+
+.receta {
+  width: 100%;
+  padding: 15px;
+  margin-top: 10px;
+  border-radius: 30%;
+  text-align: center;
+}
+
+.lista {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 5px;
+  margin-top: 5px;
+  display: grid;
+}
+
+.lista-izquierda {
+  padding: 5px;
+  text-align: left;
+  list-style-type: none;
+}
+
+.lista-derecha {
+  padding: 5px;
+  text-align: center;
+  list-style-type: none;
+}
+
+body {
+  width: 100%;
+  height: 150vh;
+  margin: 0%;
+  padding: 0%;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  color: rgb(250, 250, 250);
+  background-image: url(/public/assets/img/pizarra.jpg);
+  background-size: cover;
+}
+
+main {
+  width: 100%;
+  display: grid;
+  padding: 0px;
+  margin: 0px;
+}
+
+.card-body {
+  color: rgb(240, 69, 69);
+}
+
+footer {
+  background-color: #e30e0e;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+/*# sourceMappingURL=stule.css.map */
